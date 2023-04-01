@@ -42,6 +42,7 @@ img{
   padding: 30px;
 }
 .cartIcon{
+  flex-wrap: wrap;
   width: 60px;
   height: 60px;
 }
@@ -78,6 +79,11 @@ button{
 }
 button:hover{
   background-color: #fbefbd;
+}
+.portionStyle{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media all and (max-width: 800px) {

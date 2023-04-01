@@ -6,7 +6,7 @@ const CartItem = ({cartItem}) => {
     const dispatch = useDispatch();
     const dishes = dataDishes.find(item => item.id === cartItem.dishId)
     return(
-        <div>
+        <div className="portionStyle">
             <p>{dishes.name}</p>
             <p>{cartItem.quantity} portion(s)</p>
             <p>$ {dishes.price * cartItem.quantity}</p>
